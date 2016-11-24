@@ -6,15 +6,17 @@
 	color: gray;
 	width: 600px;
 	height: 800px;
+	margin: 0 auto;
+	border: 1px solid #000;
 	}
 	
 </style>
 <script src="pid.js"></script>
 </head>
-<body onclick="pint()">
-	<h1 style="text-align:center">pid</h1>
+<body onload="DrawChart()">
+	<h1 style="text-align:center">PID Controller</h1>
 	<div class=canva_page>
-		<canvas id="canss">sx</canvas>
+		<canvas id="canss" width="600px" height="800px">sx</canvas>
 	</div>
 </body>
 </html>
